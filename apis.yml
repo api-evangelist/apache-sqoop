@@ -1,0 +1,35 @@
+aid: apache-sqoop
+name: Apache Sqoop
+description: >-
+  Apache Sqoop is a tool designed for efficiently transferring bulk data between Apache Hadoop and structured data stores such as relational databases. It supports import and export of data with parallel processing capabilities.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Data Transfer
+  - Hadoop
+  - RDBMS
+  - ETL
+  - Big Data
+created: '2026-03-16'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/apache-sqoop/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: apache-sqoop:apache-sqoop
+    name: Apache Sqoop
+    description: >-
+      Sqoop provides a Java API and CLI for bulk data transfer between Hadoop (HDFS/Hive/HBase) and relational databases, with a connector API for custom data sources and sinks.
+    humanURL: https://sqoop.apache.org/docs/1.4.7/index.html
+    tags:
+      - Java
+      - CLI
+      - Data Transfer
+    properties:
+      - type: Documentation
+        url: https://sqoop.apache.org/docs/1.4.7/index.html
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
