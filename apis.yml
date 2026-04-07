@@ -7,11 +7,11 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+  - Big Data
   - Data Transfer
+  - ETL
   - Hadoop
   - RDBMS
-  - ETL
-  - Big Data
 created: '2026-03-16'
 modified: '2026-03-16'
 url: >-
@@ -24,9 +24,9 @@ apis:
       Sqoop provides a Java API and CLI for bulk data transfer between Hadoop (HDFS/Hive/HBase) and relational databases, with a connector API for custom data sources and sinks.
     humanURL: https://sqoop.apache.org/docs/1.4.7/index.html
     tags:
-      - Java
       - CLI
       - Data Transfer
+      - Java
     properties:
       - type: Documentation
         url: https://sqoop.apache.org/docs/1.4.7/index.html
