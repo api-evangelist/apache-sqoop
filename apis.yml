@@ -41,6 +41,10 @@ apis:
       - type: Documentation
         url: https://sqoop.apache.org/docs/1.4.7/SqoopUserGuide.html
 common:
+  - type: VulnerabilityDisclosure
+    url: security/apache-sqoop-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/apache-sqoop-domain-security.yml
   - type: GitHubRepository
     url: https://github.com/apache/sqoop
   - type: Documentation
