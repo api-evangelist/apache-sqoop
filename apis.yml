@@ -7,9 +7,21 @@ description: >-
   PostgreSQL, Oracle, SQL Server, and DB2. Note: Apache Sqoop has been retired to the Apache
   Attic as of 2021. Users are encouraged to migrate to Apache Spark or Apache NiFi.
 type: Index
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-sqoop.png
 tags:
   - Big Data
   - Data Transfer
