@@ -53,6 +53,11 @@ apis:
       - type: Documentation
         url: https://sqoop.apache.org/docs/1.4.7/SqoopUserGuide.html
 common:
+  - type: CodeOfConduct
+    url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/apache/sqoop/blob/trunk/LICENSE
   - type: VulnerabilityDisclosure
     url: security/apache-sqoop-vulnerability-disclosure.yml
   - type: DomainSecurity
