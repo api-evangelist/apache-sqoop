@@ -66,6 +66,12 @@ apis:
       - type: Documentation
         url: https://sqoop.apache.org/docs/1.4.7/SqoopUserGuide.html
 common:
+  - type: Plans
+    url: plans/apache-sqoop-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/apache-sqoop-rate-limits.yml
+  - type: FinOps
+    url: finops/apache-sqoop-finops.yml
   - type: Website
     url: https://www.apache.org/
   - type: CodeOfConduct
