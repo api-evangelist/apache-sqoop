@@ -1,4 +1,4 @@
-# Apache Sqoop (apache-sqoop)
+# Apache Sqoop
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,71 +64,104 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Apache Sqoop is a command-line tool designed for efficiently transferring bulk data between Apache Hadoop and structured data stores such as relational databases. Note: Apache Sqoop has been retired to the Apache Attic as of 2021. Users are encouraged to migrate to Apache Spark or Apache NiFi.
+Apache Sqoop is a command-line tool designed for efficiently transferring bulk data between Apache Hadoop and structured data stores such as relational databases. It supports parallel import and export of data, incremental loads, and direct database connectors for MySQL, PostgreSQL, Oracle, SQL Server, and DB2. Note: Apache Sqoop has been retired to the Apache Attic as of 2021. Users are encouraged to migrate to Apache Spark or Apache NiFi.
 
-**URL:** [https://sqoop.apache.org/](https://sqoop.apache.org/)
+**Areas:** Big Data · Data Transfer · ETL · Hadoop · RDBMS · Retired
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Apache Sqoop on APIs.io
 
-## Tags:
+Everything profiled for Apache Sqoop is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apache-sqoop/](https://apis.io/providers/apache-sqoop/)** — or go straight to one of the APIs or properties below.
 
- - Big Data, Data Transfer, ETL, Hadoop, RDBMS, Retired
+### APIs (1)
 
-## Timestamps
+- [Apache Sqoop CLI](https://apis.io/apis/apache-sqoop/apache-sqoop-cli/) — Apache Sqoop provides a command-line interface for bulk data transfer between Hadoop and relational databases. Commands include sqoop-import for loading…
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Apache Sqoop CLI
-Apache Sqoop provides a command-line interface for bulk data transfer between Hadoop and relational databases including sqoop-import, sqoop-export, sqoop-job, and sqoop-eval commands.
+#### Security (2)
 
-**Human URL:** [https://sqoop.apache.org/docs/1.4.7/SqoopUserGuide.html](https://sqoop.apache.org/docs/1.4.7/SqoopUserGuide.html)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Apache Sqoop Domain Security](https://apis.io/security/apache-sqoop/apache-sqoop-domain-security/)
+- [Apache Sqoop Vulnerability Disclosure](https://apis.io/security/apache-sqoop/apache-sqoop-vulnerability-disclosure/)
 
- - CLI, Data Transfer, ETL, Hadoop, RDBMS
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://sqoop.apache.org/docs/1.4.7/SqoopUserGuide.html)
+- [Apache Sqoop Plans Pricing](https://apis.io/plans/apache-sqoop/apache-sqoop-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
 
-- [GitHubRepository](https://github.com/apache/sqoop)
+Published request limits.
+
+- [Apache Sqoop Rate Limits](https://apis.io/rate-limits/apache-sqoop/apache-sqoop-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Apache Sqoop Finops](https://apis.io/finops/apache-sqoop/apache-sqoop-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.apache.org/)
 - [Documentation](https://sqoop.apache.org/docs/1.4.7/)
-- [Portal](https://sqoop.apache.org/)
-- [TermsOfService](https://www.apache.org/licenses/)
+- [Terms of service](https://www.apache.org/licenses/)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Bulk Import | High-throughput parallel import from RDBMS to HDFS, Hive, or HBase. |
-| Bulk Export | Export data from HDFS back to relational database tables. |
-| Incremental Loads | Delta-based incremental loading using append or lastmodified strategies. |
-| Direct Import Mode | Native database utility-based transfers for MySQL and PostgreSQL. |
-| Hive Integration | Auto-create Hive tables and load imported data directly into Hive. |
+**Kin Score 15.0** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 18.4 |
 
-| Name | Description |
-|------|-------------|
-| Data Warehouse Loading | Load relational database data into Hadoop-based data warehouses. |
-| Database Offloading | Move historical data from RDBMS to HDFS for cost-effective storage. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Apache Hadoop | Primary target storage for Sqoop imports via HDFS. |
-| Apache Hive | Create and populate Hive tables from RDBMS imports. |
-| MySQL | MySQL JDBC and direct mysqldump-based connector. |
-| Oracle | Oracle JDBC connector for enterprise database data transfer. |
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apache-sqoop/](https://apis.io/providers/apache-sqoop/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** info@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache Sqoop: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apache-sqoop/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
